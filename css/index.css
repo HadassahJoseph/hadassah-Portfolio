@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body{
+  margin: 0px;
+  background-color: rgb(29, 30, 52);
+}
+
+
+.welcome{
+  margin: 0%;
+  padding: 0%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.home{
+  margin: 20px;
+}
+
+.container2{
+  margin: 20px;
+}
+
+
+.container2 h2{
+  margin-top: 20%;
+  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container2 img{
+  width: 250px;
+  margin-right: 10px;
+  display: inline-block;
+    width: 20%;
+
+}
+
+.container2 .about{
+  display: inline-block;
+  vertical-align: top;
+  width:65%;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 20px;
+  color: #355c7d;
+}
+
+
+.container2 .about2{
+  display: inline-block;
+  vertical-align: top;
+  width:65%;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 20px;
+  color: #355c7d;
+}
+
+
+
+
+.welcome img {
+  width:100px;
+  rotate: 90deg;
+  margin-top: 40%;
+ 
+}
+
+.blink {
+  animation: blinker 1.5s linear infinite;
+  color: red;
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
+
+
+
+
+
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container h1:nth-child(1) {
+  opacity: 0;
+  background-color: #355c7d;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0 0 0 35%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 170px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shring-animation 2.2s steps(40,end) 2s forwards, blink .5s step-end infinite alternate;
+}
+
+.container h1:nth-child(2) {
+  opacity: 0;
+  font-family: "Work Sans", sans-serif;
+  margin: 0 auto auto auto;
+  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+  font-weight: 800;
+  font-size: 100px;  
+  width: 490px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40,end) 3s forwards, blink .5s step-end infinite alternate;
+}
+
+.container h1:nth-child(3) {
+  opacity: 0;
+  background-color: #355c7d;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0 0 0 35%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 400px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shring-animation 2.2s steps(40,end) 4s forwards, blink .5s step-end infinite alternate;
+}
+
+.container h1:nth-child(4) {
+  opacity: 0;
+  background-color: #355c7d;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0 0 0 35%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 370px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shring-animation 2.2s steps(40,end) 5s forwards, blink .5s step-end infinite alternate;
+}
+
+@keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  100% {
+    background-position: 400px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+}
+
+.email h2{
+  opacity: 0;
+  padding: 0px;
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0 0 0 35%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 170px;
+  background-color: #355c7d;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shring-animation 2.2s steps(40,end) 6s forwards, blink .5s step-end infinite alternate;
+
+}
+
+.email img{
+  opacity: 0;
+  rotate: 360deg;
+  width: 70px;
+  margin-top: 0px;
+  -webkit-text-fill-color: transparent;
+  animation: shring-animation 1.2s steps(40,end) 7s forwards, blink .5s step-end infinite alternate;
+
+}
+
+
+
+.tagcloud {
+  font-family: 'Poppins', sans-serif;  
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+}
+.tagcloud--item:hover {
+  color: #36454F;
+}
+
+
+.Projects{
+  margin: 20px;
+}
+
+.container3{
+  margin: 20px;
+}
+
+.blinks {
+  width:100px;
+  rotate: 90deg;
+}
+
+.blinks{
+  animation: blinker 1.5s linear infinite;
+  color: red;
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
+
+
+.container3 h2{
+  margin-top: 10%;
+  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+  font-family: 'Fira Code', monospace;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+
+.textbox{
+  border:rgb(33, 35, 77) 2px solid;
+  background-color:rgb(33, 35, 77) ;
+  height: 300px;
+  border-radius: 20px;
+ margin: 10%;
+}
+
+.textbox h2{
+  background:rgb(33, 35, 77);
+  color: bisque;
+  margin: -3px;
+  font-weight: 800; 
+}
+
+.logo{
+width: 40px;
+margin-top: 10px;
+}
+
+.textbox p {
+ color: aliceblue;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-align: center;
+ margin-top: 5%;
+ font-weight: 800;
+ font-size: 18px;
+}
+
+.textbox img{
+  width: 70px;
+  text-align: right;
+  margin :-5px;
+
+}
+
+
+footer{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: azure;
+  margin-bottom: 10%;
+}
+
+.social{
+ text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.social img{
+  width: 50px;
+}
